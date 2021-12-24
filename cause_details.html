@@ -116,12 +116,37 @@
                                 <div class="container" style="margin-top: -60px;"> <div class=" text-center mt-5 ">
                                     <h3>Donasi Sekarang</h3>
                                 </div>
+                             
                                 <div class="row ">
                                     <div class="col-lg-7 mx-auto">
                                         <div class="card mt-2 mx-auto p-4 bg-light">
                                             <div class="card-body bg-light">
                                                 <div class="container">
                                                     <form id="contact-form" role="form">
+                                                        <div class="justify-content-center align-content-center">
+                                                            <ul class="justify-content-center list-inline prod_size display-layout">
+                                                                <li class="btn-pil">
+                                                                  <button ondblclick="myfunction1()" onclick="myFunction()" id="myBtn" type="button" class="btn btn-default btn-md btn-pilih">Rp. 25.000</button>
+                                                                </li>
+                                                                <li>
+                                                                  <button ondblclick="myfunction1()" onclick="myFunction()" id="myBtn" type="button" class="btn btn-default btn-md btn-pilih">Rp. 50.000</button>
+                                                                </li>
+                                                                <li>
+                                                                  <button ondblclick="myfunction1()" onclick="myFunction()" id="myBtn" type="button" class="btn btn-default btn-md btn-pilih">Rp. 75.000</button>
+                                                                </li>
+                                                            </ul>
+                                                                <ul class="justify-content-center list-inline prod_size display-layout1">
+                                                                <li class="btn-pil">
+                                                                  <button ondblclick="myfunction1()" onclick="myFunction()"id="myBtn" type="button" class="btn btn-default btn-md btn-pilih">Rp. 100.000</button>
+                                                                </li>
+                                                                <li class="btn-pil">
+                                                                    <button ondblclick="myfunction1()" onclick="myFunction()" id="myBtn" type="button" class="btn btn-default btn-md btn-pilih">Rp. 125.000</button>
+                                                                  </li>
+                                                                  <li class="btn-pil">
+                                                                    <button ondblclick="myfunction1()" onclick="myFunction()" id="myBtn" type="button" class="btn btn-default btn-md btn-pilih">Rp. 150.000</button>
+                                                                  </li>
+                                                              </ul>
+                                                        </div>
                                                         <div class="row align-items-center">
                                                             <div class="col-md-4">
                                                                 <div class="single_amount">
@@ -135,19 +160,13 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="col-md-8">
+                                                            <div class="col-md-6">
                                                                 <div class="single_amount">
                                                                    <div class="fixed_donat d-flex align-items-center justify-content-between">
                                                                        <div class="select_prise">
                                                                            <h4>Jumlah Donasi:</h4>
                                                                        </div>
                                                                         <div class="single_doonate"> 
-                                                                            <input type="radio" id="blns_1" name="radio-group" checked>
-                                                                            <label for="blns_1">Rp.50.000</label>
-                                                                        </div>
-                                                                        <div class="single_doonate"> 
-                                                                            <input type="radio" id="blns_2" name="radio-group" checked>
-                                                                            <label for="blns_2">Rp. 100.000</label>
                                                                         </div>
                                                                         <div class="single_doonate"> 
                                                                             <input type="radio" id="Other" name="radio-group" checked>
@@ -254,8 +273,17 @@
     <!-- footer_end  -->
 
     <!-- link that opens popup -->
+    <!--Script button klik-->
+      <script>
+        function myFunction() {
+            document.getElementById("myBtn").style.backgroundColor = "#A4212A";
+            document.getElementById("myBtn").style.color = "#FFF";
+        }
+        
+      </script>
 
     <!-- JS here -->
+    
     <script src="js/detaildonasi.js">
         
     </script>
