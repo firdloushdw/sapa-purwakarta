@@ -2943,19 +2943,7 @@ h3 {
   bottom: 0;
 }
 
-@media (max-width: 767px) {
-  /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
-  .latest_activites_area .video_activite {
-    display: none !important;
-  }
-}
 
-@media (min-width: 768px) and (max-width: 991px) {
-  /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
-  .latest_activites_area .video_activite {
-    display: none !important;
-  }
-}
 
 /* line 22, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
 .latest_activites_area .video_activite a {
